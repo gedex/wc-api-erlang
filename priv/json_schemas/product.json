@@ -1,0 +1,226 @@
+{
+  "title": "Product",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "downloadable": {
+      "type": "boolean"
+    },
+    "virtual": {
+      "type": "boolean"
+    },
+    "permalink": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "regular_price": {
+      "type": "number"
+    },
+    "sale_price": {
+      "type": "number"
+    },
+    "sale_price_dates_from": {
+      "type": "string"
+    },
+    "sale_price_dates_to": {
+      "type": "string"
+    },
+    "price_html": {
+      "type": "string"
+    },
+    "taxable": {
+      "type": "boolean"
+    },
+    "tax_status": {
+      "type": "string"
+    },
+    "tax_class": {
+      "type": "string"
+    },
+    "managing_stock": {
+      "type": "boolean"
+    },
+    "stock_quantity": {
+      "type": "number"
+    },
+    "in_stock": {
+      "type": "boolean"
+    },
+    "backorders_allowed": {
+      "type": "boolean"
+    },
+    "backordered": {
+      "type": "boolean"
+    },
+    "backorders": {
+      "type": "boolean" 
+    },
+    "sold_individually": {
+      "type": "boolean"
+    },
+    "purchaseable": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "catalog_visibility": {
+      "type": "string"
+    },
+    "on_sale": {
+      "type": "boolean"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "dimensions": {
+      "$ref": "product_dimension.json"
+    },
+    "shipping_required": {
+      "type": "boolean"
+    },
+    "shipping_taxable": {
+      "type": "boolean"
+    },
+    "shipping_class": {
+      "type": "string"
+    },
+    "shipping_class_id": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "enable_html_description": {
+      "type": "boolean"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "enable_html_short_description": {
+      "type": "boolean"
+    },
+    "reviews_allowed": {
+      "type": "boolean"
+    },
+    "average_rating": {
+      "type": "string"
+    },
+    "rating_count": {
+      "type": "number"
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "upsell_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "cross_sell_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "parent_id": {
+      "type": "number"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "$ref": "product_image.json"
+      }
+    },
+    "featured_src": {
+      "type": "string"
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "$ref": "product_attribute.json"
+      }
+    },
+    "default_attributes": {
+      "type": "array",
+      "items": {
+        "$ref": "product_default_attribute.json"
+      }
+    },
+    "downloads": {
+      "type": "array",
+      "items": {
+        "$ref": "product_download.json"
+      }
+    },
+    "download_limit": {
+      "type": "number"
+    },
+    "download_expiry": {
+      "type": "number"
+    },
+    "download_type": {
+      "type": "string"
+    },
+    "purchase_note": {
+      "type": "string"
+    },
+    "total_sales": {
+      "type": "number"
+    },
+    "variations": {
+      "type": "array",
+      "items": {
+        "$ref": "product_variation.json"
+      }
+    },
+    "parent": {
+      "type": "array",
+      "items": {}
+    },
+    "product_url": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

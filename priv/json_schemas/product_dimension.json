@@ -1,0 +1,18 @@
+{
+  "title": "Product Dimension",
+  "type": "object",
+  "properties": {
+    "length": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    }
+  }
+}

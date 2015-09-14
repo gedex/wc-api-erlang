@@ -1,0 +1,45 @@
+{
+  "title": "Customer",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "last_order_id": {
+      "type": "number"
+    },
+    "last_order_date": {
+      "type": "string"
+    },
+    "orders_count": {
+      "type": "number"
+    },
+    "total_spent": {
+      "type": "string"
+    },
+    "avatar_url": {
+      "type": "string"
+    },
+    "billing_address": {
+      "$ref": "customer_billing_address.json"
+    },
+    "shipping_address": {
+      "$ref": "customer_shipping_address.json"
+    }
+  }
+}

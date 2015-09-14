@@ -1,0 +1,15 @@
+{
+  "title": "Product Download",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string"
+    }
+  }
+}

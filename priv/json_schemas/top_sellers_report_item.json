@@ -1,0 +1,15 @@
+{
+  "title": "Top Sellers Item",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "product_id": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number"
+    }
+  }
+}

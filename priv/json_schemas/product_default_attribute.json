@@ -1,0 +1,15 @@
+{
+  "title": "Product Default Attribute",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "option": {
+      "type": "string"
+    }
+  }
+}

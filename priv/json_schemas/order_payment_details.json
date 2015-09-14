@@ -1,0 +1,15 @@
+{
+  "title": "Order Payment Details",
+  "type": "object",
+  "properties": {
+    "method_id": {
+      "type": "string"
+    },
+    "method_title": {
+      "type": "string"
+    },
+    "paid": {
+      "type": "boolean"
+    }
+  }
+}

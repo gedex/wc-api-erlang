@@ -1,0 +1,42 @@
+{
+  "title": "Webhook Delivery",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "duration": {
+      "type": "number"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "request_method": {
+      "type": "string"
+    },
+    "request_url": {
+      "type": "string"
+    },
+    "request_headers": {
+      "type": "object"
+    },
+    "request_body": {
+      "type": "string"
+    },
+    "response_code": {
+      "type": "string"
+    },
+    "response_message": {
+      "type": "string"
+    },
+    "response_headers": {
+      "type": "object"
+    },
+    "response_body": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

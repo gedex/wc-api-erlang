@@ -1,0 +1,45 @@
+{
+  "title": "Order Line Item",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "subtotal_tax": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "total_tax": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "tax_class": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "product_id": {
+      "type": "number"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "array",
+      "items": {
+        "$ref": "order_line_item_meta.json"
+      }
+    }
+  }
+}

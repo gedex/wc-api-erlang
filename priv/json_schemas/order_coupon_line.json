@@ -1,0 +1,15 @@
+{
+  "title": "Order Coupon Line",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "code": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    }
+  }
+}

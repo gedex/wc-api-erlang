@@ -1,0 +1,24 @@
+{
+  "title": "Product Review",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "reviewer_name": {
+      "type": "string"
+    },
+    "reviewer_email": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    }
+  }
+}

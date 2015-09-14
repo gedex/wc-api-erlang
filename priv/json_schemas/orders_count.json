@@ -1,0 +1,9 @@
+{
+  "title": "Orders Count",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "number"
+    }
+  }
+}

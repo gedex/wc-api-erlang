@@ -1,0 +1,24 @@
+{
+  "title": "Order Fee Line",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "taxable": {
+      "type": "boolean"
+    },
+    "tax_class": {
+      "type": "string"
+    },
+    "total": {
+      "type": "number"
+    },
+    "total_tax": {
+      "type": "number"
+    }
+  }
+}

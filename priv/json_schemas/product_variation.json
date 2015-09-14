@@ -1,0 +1,108 @@
+{
+  "title": "Product Variation",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "downloadable": {
+      "type": "boolean"
+    },
+    "virtual": {
+      "type": "boolean"
+    },
+    "permalink": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "regular_price": {
+      "type": "number"
+    },
+    "sale_price": {
+      "type": "number"
+    },
+    "sale_price_dates_from": {
+      "type": "string"
+    },
+    "sale_price_dates_to": {
+      "type": "string"
+    },
+    "taxable": {
+      "type": "boolean"
+    },
+    "tax_status": {
+      "type": "string"
+    },
+    "tax_class": {
+      "type": "string"
+    },
+    "managing_stock": {
+      "type": "boolean"
+    },
+    "stock_quantity": {
+      "type": "number"
+    },
+    "in_stock": {
+      "type": "boolean"
+    },
+    "backordered": {
+      "type": "boolean"
+    },
+    "purchaseable": {
+      "type": "boolean"
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "on_sale": {
+      "type": "boolean"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "dimensions": {
+      "$ref": "product_dimension.json"
+    },
+    "shipping_class": {
+      "type": "string"
+    },
+    "shipping_class_id": {
+      "type": "number"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "$ref": "product_image.json"
+      }
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "$ref": "product_attribute.json"
+      }
+    },
+    "downloads": {
+      "type": "array",
+      "items": {
+        "$ref": "product_download.json"
+      }
+    },
+    "download_limit": {
+      "type": "number"
+    },
+    "download_expiry": {
+      "type": "number"
+    }
+  }
+}

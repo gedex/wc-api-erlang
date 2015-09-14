@@ -1,0 +1,24 @@
+{
+  "title": "Product Attribute",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "order_by": {
+      "type": "string"
+    },
+    "has_archives": {
+      "type": "boolean"
+    }
+  }
+}

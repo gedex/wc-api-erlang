@@ -1,0 +1,40 @@
+{
+  "title": "Webhook",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "id",
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "resource": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "hooks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "delivery_url": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

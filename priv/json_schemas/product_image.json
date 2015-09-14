@@ -1,0 +1,27 @@
+{
+  "title": "Product Image",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "position": {
+      "type": "number"
+    }
+  }
+}

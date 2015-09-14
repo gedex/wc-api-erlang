@@ -1,0 +1,36 @@
+{
+  "title": "Sales Report",
+  "type": "object",
+  "properties": {
+    "total_sales": {
+      "type": "number"
+    },
+    "average_sales": {
+      "type": "number"
+    },
+    "total_orders": {
+      "type": "number"
+    },
+    "total_items": {
+      "type": "number"
+    },
+    "total_tax": {
+      "type": "number"
+    },
+    "total_shipping": {
+      "type": "number"
+    },
+    "total_discount": {
+      "type": "number"
+    },
+    "totals_grouped_by": {
+      "type": "string"
+    },
+    "totals": {
+      "type": "object"
+    },
+    "total_customers": {
+      "type": "number"
+    }
+  }
+}

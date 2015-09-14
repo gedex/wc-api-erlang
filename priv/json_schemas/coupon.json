@@ -1,0 +1,87 @@
+{
+  "title": "Coupon",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "code": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "individual_use": {
+      "type": "boolean"
+    },
+    "product_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "exclude_product_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "usage_limit": {
+      "type": "number"
+    },
+    "usage_limit_per_user": {
+      "type": "number"
+    },
+    "limit_usage_to_x_items": {
+      "type": "number"
+    },
+    "usage_count": {
+      "type": "number"
+    },
+    "expiry_date": {
+      "type": "string"
+    },
+    "enable_free_shipping": {
+      "type": "boolean"
+    },
+    "product_category_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "exclude_product_category_ids": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "exclude_sale_items": {
+      "type": "boolean"
+    },
+    "minimum_amount": {
+      "type": "number"
+    },
+    "maximum_amount": {
+      "type": "number"
+    },
+    "customer_emails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

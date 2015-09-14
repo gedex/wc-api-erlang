@@ -1,0 +1,12 @@
+{
+  "title": "Top Sellers Report",
+  "type": "object",
+  "properties": {
+    "top_sellers": {
+      "type": "array",
+      "items": {
+        "$ref": "top_sellers_report_item.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Order Tax Line",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "rate_id": {
+      "type": "number"
+    },
+    "code": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "total": {
+      "type": "number"
+    },
+    "compound": {
+      "type": "boolean"
+    }
+  }
+}

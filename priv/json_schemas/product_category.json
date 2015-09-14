@@ -1,0 +1,30 @@
+{
+  "title": "Product Category",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "parent": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "display": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "count": {
+      "type": "boolean"
+    }
+  }
+}
