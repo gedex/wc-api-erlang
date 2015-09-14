@@ -443,10 +443,8 @@ resp_to_coupon(PathList, Method, Resp) ->
     {ok, Json} = Resp,
     case is_resp_with_multi_record(coupon, PathList, Method) of
         true  ->
-            io:format("~p~n", [Json]),
             case from_json(Json, coupons) of
                 {ok, CL} ->
-                    io:format("~p~n", [CL]),
                     {ok, CL#coupons.coupons};
                 Else ->
                     Else
